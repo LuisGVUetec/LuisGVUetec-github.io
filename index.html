@@ -1,0 +1,214 @@
+<!<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loja de Carros - Magnesio Supremo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset básico de estilo */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+
+        /* Estilo da Topbar */
+        .topbar {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        /* Estilo da Navbar */
+        .navbar {
+            background-color: #444;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar .logo img {
+            height: 40px;
+        }
+
+        /* Estilo do Hero */
+        .hero {
+            background-image: url('fdce911b-61e5-4bef-bc5f-d9390be6ae35.jpeg'); /* Substitua por sua imagem de fundo */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .cta-btn {
+            padding: 15px 30px;
+            background-color: #f90;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .cta-btn:hover {
+            background-color: #e68000;
+        }
+
+        /* Estilo do Content */
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .content .car-card {
+            display: inline-block;
+            width: 280px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .content .car-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .content .car-card h3 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        .content .car-card p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* Estilo do Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .footer .cta-btn {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Topbar -->
+    <div class="topbar">
+        <p>Bem-vindo à nossa Loja de Carros - Promoções Imperdíveis!</p>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#" class="logo">
+            <img src="MagnesioSupremo-Logo.png" alt="Logo da Loja">
+        </a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="carros.html">Sobre Nós</a>
+            <a href="opcoes.html">Carros</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div>
+            <h1>Magnesio Supremo</h1> <!-- Nome da loja -->
+            <p>Encontre o carro dos seus sonhos com a qualidade que você merece!</p>
+            <button class="cta-btn">Explore Agora</button>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h2>Nosso Catálogo</h2>
+        <p>Confira alguns dos nossos carros em destaque!</p>
+
+        <!-- Carros em destaque -->
+        <div class="car-card">
+            <img src="ford_fiesta_rocam_2013_prata.webp" alt="Ford Fiesta Rocam 1.6 2012/13">
+            <h3>Ford Fiesta Rocam 1.6 2012/13</h3>
+            <p>A partir de R$ 30.000</p>
+            <button class="cta-btn">Saiba Mais</button>
+        </div>
+
+        <div class="car-card">
+            <img src="autowp.ru_chevrolet_onix_18.jpg" alt="Chevrolet Onix LT manual 2013">
+            <h3>Chevrolet Onix LT manual 2013</h3>
+            <p>A partir de R$ 40.000</p>
+            <button class="cta-btn">Saiba Mais</button>
+        </div>
+
+        <div class="car-card">
+            <img src="fiat-argo-2021-vermelho-frente-e-lateral-em-movimento.webp" alt="Fiat Argo 1.0 2021">
+            <h3>Fiat Argo 1.0 2021</h3>
+            <p>A partir de R$ 50.000</p>
+            <button class="cta-btn">Saiba Mais</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <h3>Entre em contato conosco!</h3>
+        <p>Tem dúvidas? Estamos aqui para ajudar você a encontrar o carro perfeito.</p>
+        <button class="cta-btn">Fale Conosco</button>
+    </div>
+
+</body>
+</html>
